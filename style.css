@@ -11,6 +11,7 @@ html {
 }
 a {
 	text-decoration: none;
+	color: whitesmoke;
 }
 .container {
 	min-height: 100vh;
@@ -366,6 +367,7 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -601,6 +603,18 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
+	#projects .all-projects .project-info .view-site{
+		border: solid rgb(245, 245, 245,0.2) 1px;
+		padding: 5px 15px;
+		border-radius: 5px;
+		font-size: 16px;
+		transition: transform 0.3s ease;
+	}
+	#projects .all-projects .project-info .view-site:hover{
+		transform: scale(1.1);
+	}
+	
+
 	/* End Project */
 
 	/* About */
