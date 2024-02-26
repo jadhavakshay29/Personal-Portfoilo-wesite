@@ -335,7 +335,7 @@ p {
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 #projects .all-projects {
 	display: flex;
@@ -675,6 +675,22 @@ p {
 		padding-left: 20px;
 	}
 	/* End contact  */
+}
+.more-projects{
+	text-align: right;
+	margin-right: 30px;
+}
+.more-projects #more-projects-btn{
+	border: solid rgba(245, 245, 245, 0) 1px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+.more-projects #more-projects-btn:hover{
+	transform: scale(1.1);
 }
 /* End Media Query For Tablet */
 
