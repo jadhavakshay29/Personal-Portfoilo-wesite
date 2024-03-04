@@ -332,7 +332,7 @@ p {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 0;
+padding: 100px 0;
 }
 #projects .projects-header h1 {
 	margin-bottom: 30px;
@@ -677,18 +677,20 @@ p {
 	/* End contact  */
 }
 .more-projects{
-	text-align: right;
-	margin-right: 30px;
+	text-align: center;
+	
 }
 .more-projects #more-projects-btn{
 	border: solid rgba(245, 245, 245, 0) 1px;
 	padding: 5px 15px;
+	margin: 100px 0;
 	border-radius: 5px;
 	font-size: 16px;
 	transition: transform 0.3s ease;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
+
 .more-projects #more-projects-btn:hover{
 	transform: scale(1.1);
 }
@@ -717,6 +719,12 @@ p {
 		display: none;
 	}
 	/* End header */
+	#projects .projects {
+		flex-direction: column;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 100px 0;
+	}
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
